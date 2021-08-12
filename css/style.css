@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #eee;
+}
+.photography{
+    width: 70%;
+    
+}
+.block1{
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.block-content{
+    padding: 45px;
+}
+.block-content h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.block-content p{
+    color: rgb(136, 136, 136);
+    font-size: 1.2em;
+}
+.block-background{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#view-work{
+    display: inline-block;
+    color: rgb(51, 51, 51);
+    background-color: transparent;
+    padding: 0.8rem 2rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    /* margin: 2rem 0px 0px; */
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 500ms ease 0s;
+}
+#view-work:hover{
+    background-color: rgb(238, 238, 238);
+}
+.our-work{
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    padding: 1.5rem;
+}
+.photo-one, .photo-two, .photo-three, .photo-four, .photo-five{
+    background-color: rgb(238, 238, 238);
+    padding: 1.5rem;
+}
