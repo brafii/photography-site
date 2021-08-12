@@ -82,4 +82,7 @@ body{
     .photography{
         width: 100%;  
     }
+    .block-content{
+        padding: 10px;
+    }
 }
