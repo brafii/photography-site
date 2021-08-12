@@ -3,8 +3,7 @@ body{
     background: #eee;
 }
 .photography{
-    width: 70%;
-    
+    width: 70%;  
 }
 .block1{
     background-color: #fff;
@@ -57,4 +56,13 @@ body{
 .photo-one, .photo-two, .photo-three, .photo-four, .photo-five{
     background-color: rgb(238, 238, 238);
     padding: 1.5rem;
+}
+
+/* Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .photography{
+        width: 100%;  
+    }
 }
