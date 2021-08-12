@@ -56,6 +56,7 @@ body{
 .photo-one, .photo-two, .photo-three, .photo-four, .photo-five{
     background-color: rgb(238, 238, 238);
     padding: 1.5rem;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
 }
 
 /* Media Queries */
